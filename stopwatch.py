@@ -1,15 +1,18 @@
 #!/usr/bin/env python
 
 
+"""
+Stopwatch.py: How a stopwatch works.
+"""
+
+
 import time
-
-
-"""Stopwatch.py: How a stopwatch works."""
 
 
 __author__ = "Bo Claes"
 __email__ = "bo.claes@student.kdg.be"
 __status__ = "Development"
+
 
 def main():
 
@@ -28,6 +31,7 @@ def main():
     TIME_LAPSED = float(TIME_LAPSED)                        # This will let you see all the point values
 
     print("The time elapsed is", TIME_LAPSED, "seconds")    # It will print out the seconds
+
 
 if __name__ == '__main__':  # code to execute if called from command-line
     main()

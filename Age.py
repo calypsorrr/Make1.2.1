@@ -1,12 +1,15 @@
 #!/usr/bin/env python
 
 
-"""Age.py: How to calculate age."""
+"""
+Age.py: How to calculate age.
+"""
 
 
 __author__ = "Bo Claes"
 __email__ = "bo.claes@student.kdg.be"
 __status__ = "Development"
+
 
 def main():
 
@@ -18,7 +21,9 @@ def main():
 
     print("The year you where born in is "+str(int(YEAR)-int(AGE)))               # printing when he was born
 
-    print("The year when you turn 50 is "+str(int(YEAR)-int(AGE)+int(x)))         # printing in what year you will become 50
+    # printing in what year you will become 50
+    print("The year when you turn 50 is "+str(int(YEAR)-int(AGE)+int(x)))
+
 
 if __name__ == '__main__':  # code to execute if called from command-line
     main()
