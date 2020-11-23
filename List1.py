@@ -13,15 +13,15 @@ __status__ = "Development"
 
 def main():
 
-    RANDOM_WORDS = ["sum", "book", "bike", "lost"]               # a list of random words
+    random_words = ["sum", "book", "bike", "lost"]               # a list of random words
 
-    print(RANDOM_WORDS)                                          # this wil print out random_words
+    print(random_words)                                          # this wil print out random_words
 
-    MORE_WORDS = input("Give me some words user ").split()       # this wil ask the user for some words
+    more_words = input("Give me some words user ").split()       # this wil ask the user for some words
 
-    RANDOM_WORDS.extend(MORE_WORDS)                              # this wil extend the list of random_words
+    random_words.extend(more_words)                              # this wil extend the list of random_words
 
-    print(RANDOM_WORDS)                                          # this wil print out the new list with the new words
+    print(random_words)                                          # this wil print out the new list with the new words
 
 
 if __name__ == '__main__':  # code to execute if called from command-line
