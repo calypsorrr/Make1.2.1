@@ -17,7 +17,7 @@ def main():
 
     x = 50                                                                        # this will be used for a calculation
 
-    AGE = input("How old are you user? ")                                          # asking the user for his age
+    AGE = input("How old are you user? ")                                         # asking the user for his age
 
     print("The year you where born in is "+str(int(YEAR)-int(AGE)))               # printing when he was born
 
