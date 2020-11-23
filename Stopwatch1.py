@@ -3,6 +3,7 @@
 
 """
 Stopwatch.py: How a stopwatch works.
+This is a program of my own to experment with. The real program is stopwatch.py
 """
 
 
